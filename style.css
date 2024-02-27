@@ -1,0 +1,70 @@
+html, body {
+    margin: 20;
+}
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #008783;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #b29bad;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #ffffff;
+    min-height: 150px;
+    justify-content: center;
+}
+.content {
+    background-color: #ffffff;
+    min-height: 300px;
+    padding: 20px;
+}
+#tamiris {
+    float: left;
+    margin-right: 10px;
+}
+.schedule-table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+  
+.schedule-table th, .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+  
+.schedule-table th {
+    background-color: #f2f2f2;
+  }
+  
+.schedule-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.footer {
+    text-align: center;
+    color: white       
+    background-color: #676767;
+    min-height: 50px;    
+}
+.img{
+    height: 3rem
+    
+}
